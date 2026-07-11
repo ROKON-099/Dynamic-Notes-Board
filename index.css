@@ -31,5 +31,21 @@ button {
     cursor:pointer;
 }
 .note{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding:15px;
+    margin-top:15px;
+    border-radius:8px;
     
+
+}
+
+.delete{
+    background-color:red;
+    color:white;
+    border:none;
+    padding:8px 14px;
+    border-radius:5px;
 }
